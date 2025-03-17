@@ -296,25 +296,20 @@ div#copyright {
 div#copyright a{
     color: var(--cor05);
 }
-
 @media (max-width: 765px){
     nav > h1 {
         font-size: 3.5em;
         text-align: center;
     }
-    
     header nav ul {
         justify-content: center;
     }
-
     .hero {
         padding: 40px 0px 20px 0px;
     }
-
     .hero > .container > p {
         margin: 5px;
     }
-
     .servicos {
         padding-bottom: 20px;
     }
@@ -324,9 +319,7 @@ div#copyright a{
     .servico{
         margin-left: 21%;
     }
-
 }
-
 @media (max-width: 475px) {
     nav > h1 {
         font-size: 2em;
@@ -343,11 +336,9 @@ div#copyright a{
     li#margem{
         margin-right: 60px;
     }
-
     .hero {
         padding: 20px 0px 40px 0px;
     }
-    
     .container > h1{
         font-size: 2em;
         text-align: center;
@@ -361,29 +352,23 @@ div#copyright a{
     p#margem{
         margin-right: 60px;
     }
-
     .servicos{
         padding: 20px 0;
         margin-right: 60px;
     }
-
     .servicos > .container > h2 {
         font-size: 2em;
         margin: 15px;
     }
-    
     .servico{
         margin: 5% 60px 5% 10px;
     }
-
     h2#porque{
         margin: 10px 70px 10px 0px;
     }
-
     .card{
         margin-right: 90px;
     }
-
     .container-footer{
         margin-right: 60px;
     }
@@ -406,7 +391,45 @@ div#copyright a{
         margin-top: 20px;
         margin-right: 90px;
     }
-
+    div#copyright > p{
+        font-size: 9px;
+    }
+}
+@media (max-width: 425px) {
+    nav > h1 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    header nav ul li {
+        margin: 10px 10px 0px 10px;
+    }
+    header nav ul > li > a{
+        justify-content: center;
+        font-size: 13px;
+    }
+    .logo-footer{
+        margin-left: 0px; 
+    }
+    .logo-footer > img{
+        margin-left: 10px;
+        margin-right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    .siga-nos{
+        padding-right: 20px;
+        margin: 0px;
+    }
+    .siga-nos, .contate-nos{
+        font-size: 12px;
+    }
+    .contate-nos{
+        margin-right: 18px;
+    }
+    div#copyright {
+        margin-top: 20px;
+        margin-right: 90px;
+    }
     div#copyright > p{
         font-size: 9px;
     }
