@@ -475,3 +475,68 @@ div#copyright a{
         display: none;
     }
 }
+
+@media (max-width: 475px) {
+    .container {
+        width: 100%;
+    }
+    nav > h1 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+    header nav ul li {
+        margin: 10px 10px 0px 10px;
+    }
+    header nav ul > li > a{
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .hero {
+        padding: 20px 0px 40px 0px;
+    }
+    
+    .container > h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .container > p{
+        font-size: 1em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .hero .btn-principal{
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .quem-somos, .automacao {
+        padding: 20px 0;
+    }
+    .servico, .servico-botao {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .logo-footer{
+        margin: 10px; 
+    }
+    .logo-footer > img{
+        margin-left: 0px;
+    }
+    .siga-nos{
+        margin: 10px;
+    }
+    .siga-nos, .contate-nos{
+        font-size: 12px;
+    }
+    div#copyright {
+        margin-top: 20px;
+    }
+
+    div#copyright > p{
+        font-size: 12px;
+    }
+}
