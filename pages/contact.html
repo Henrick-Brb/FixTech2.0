@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FixTech - Automação Remota para Microempresas. Soluções rápidas e eficientes.">
+    <title>FixTech - Contato</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="shortcut icon" href="../Image/favicon-32x32.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+         emailjs.init("2M-OC8Pu0vYxeamlU");
+      })();
+   </script>
+</head>
+<body>
+    
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <nav><h1>F I X T EE C H</h1></nav>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html#quem-somos">Quem Somos</a></li>
+                    <li><a href="../index.html#servicos">Serviços</a></li>
+                    <li><a href="../index.html#cadastro">Cadastre-se</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero-->
+    <section class="hero">
+        <div class="container">
+            <h1>Tire suas dúvidas / Faça sua solicitação</h1>
+            <p>Estamos ansiosos para ouvir de você! Se tiver alguma dúvida sobre nossos serviços ou sobre como podemos ajudá-lo, basta preencher o formulário abaixo. Estamos aqui para ajudar. Sua opinião é muito importante para nós.</p>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="contact">
+        <div class="container-contact">
+            <form id="formulario-contato">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail para contato:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone para contato:</label>
+                <input type="telefone" id="telefone" name="telefone" required>
+
+                <label for="servico">Serviço desejado:</label>
+                <select id="servico" name="servico" required>
+                    <option value="">Selecione um serviço</option>
+                    <option value="servico1">Serviço de Tarefas repetitivas</option>
+                    <option value="servico2">Serviço de Gerenciamento de estoque</option>
+                    <option value="servico3">Serviço de Atendimento ao cliente</option>
+                    <option value="servico3">Serviço de Manutenção remota</option>
+                    <option value="servico3">Serviço de Monitoramento de desempenho</option>
+                </select>
+
+                <label for="mensagem">Sugestão / Dúvida / Feedback:</label>
+                <p>Escreva aqui sua mensagem. Estamos ansiosos para ouvir você!</p>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit" class="btn-principal">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container-footer">
+            <div class="logo-footer">
+                <img src="../Image/Logo-FixTech.png" alt="Logo FixTech">
+            </div>
+            <div class="siga-nos">
+                <h3>Siga-nos</h3>
+                <ul>
+                    <li><a href="https://pt-br.facebook.com/"><img src="../Image/facebook.png" alt="Logo Facebook" class="contas">  Facebook</a></img></li>
+                    <li><a href="https://www.instagram.com/"><img src="../Image/instagram.png" alt="Logo Instagram" class="contas">  Instagram</a></img></li>
+                    <li><a href="https://www.linkedin.com/"><img src="../Image/linkedin.png" alt="Logo LinkedIn" class="contas">  LinkedIn</a></img></li>
+                </ul>
+            </div>
+
+            <div class="contate-nos">
+                <h3>Contato</h3>
+                <p>(61) 98651-7657 / 8002-8922 </p>
+                <p>suportefixtech@gmail.com</p>
+            </div>
+        </div>
+
+        <div id="copyright">
+            <p>© 2025 FixTech | Todos os Direitos Reservados | Desenvolvido por <a href="https://www.instagram.com/henrick_borba/" target="_blank">Henrick de Lima Borba.</a></p>
+        </div>
+    </footer>
+    <script src="../script/email.js"></script>
+</body>
+</html>
